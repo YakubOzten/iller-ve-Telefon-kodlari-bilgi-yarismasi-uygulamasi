@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SureliOyunActivity">
+
+    <Button
+        android:id="@+id/cevap1S"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:tag="1"
+        android:text="@string/A"
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="@+id/soruS"
+        app:layout_constraintStart_toStartOf="@+id/soruS"
+        app:layout_constraintTop_toBottomOf="@+id/soruS" />
+
+    <Button
+        android:id="@+id/cevap2S"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:tag="2"
+        android:text="@string/B"
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="@+id/cevap1S"
+        app:layout_constraintStart_toStartOf="@+id/cevap1S"
+        app:layout_constraintTop_toBottomOf="@+id/cevap1S" />
+
+    <Button
+        android:id="@+id/cevap4S"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:tag="4"
+        android:text="@string/D"
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="@+id/cevap3S"
+        app:layout_constraintStart_toStartOf="@+id/cevap3S"
+        app:layout_constraintTop_toBottomOf="@+id/cevap3S" />
+
+    <Button
+        android:id="@+id/cevap3S"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:tag="3"
+        android:text="@string/C"
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="@+id/cevap2S"
+        app:layout_constraintStart_toStartOf="@+id/cevap2S"
+        app:layout_constraintTop_toBottomOf="@+id/cevap2S" />
+
+    <Button
+        android:id="@+id/sinaviBaslatS"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#3F51B5"
+        android:text="@string/TestiTekrarBaslat"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/btnmenuyegeridonS"
+        app:layout_constraintStart_toStartOf="@+id/btnmenuyegeridonS"
+        app:layout_constraintTop_toBottomOf="@+id/btnmenuyegeridonS"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/puanS"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="37dp"
+        android:ems="10"
+        android:text="@string/Puan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/cevap4S"
+        app:layout_constraintStart_toStartOf="@+id/cevap4S"
+        app:layout_constraintTop_toBottomOf="@+id/cevap4S" />
+
+    <TextView
+        android:id="@+id/soruS"
+        android:layout_width="330dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtSure"
+        app:layout_constraintStart_toStartOf="@+id/txtSure"
+        app:layout_constraintTop_toBottomOf="@+id/txtSure" />
+
+    <Button
+        android:id="@+id/btnmenuyegeridonS"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/menüyegeridön"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="@+id/puanS"
+        app:layout_constraintStart_toStartOf="@+id/puanS"
+        app:layout_constraintTop_toBottomOf="@+id/puanS" />
+
+    <TextView
+        android:id="@+id/txtSure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="3:00"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

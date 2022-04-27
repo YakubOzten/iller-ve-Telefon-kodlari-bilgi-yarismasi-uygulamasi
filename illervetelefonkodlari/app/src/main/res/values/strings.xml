@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">İller Ve Telefon Kodları</string>
+    <string name="secenekler">Seçenekler</string>
+    <string name="baslat">Testi Yeniden Başlat</string>
+    <string name="sayi">Soru Sayısı =</string>
+    <string name="geri">Teste Geri Dön</string>
+    <string name="zaman">Zamanlayıcı</string>
+    <string name="testzaman">Test Süresi =</string>
+    <string name="baslatt">Testi Başlat</string>
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="C">C</string>
+    <string name="D">D</string>
+    <string name="Puan">Puan:</string>
+
+    <string name="SinaviYenidenBaslat">Sınavı Baslat</string>
+    <string name="menüyegeridön">Menüye Geri Dön</string>
+    <string name="Soru">Soru</string>
+    <string name="SüreliOyun">Süreli Oyun</string>
+    <string name="Çıkış">Çıkış</string>
+    <string name="SınavıYenidenBaslat">Sınavı Yeniden Başlat</string>
+    <string name="TestiTekrarBaslat">Tekrar Oyna</string>
+</resources>
